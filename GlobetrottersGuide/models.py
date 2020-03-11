@@ -62,6 +62,8 @@ class City(models.Model):
 
 
 class Review(models.Model):
+    TEXT_MAX_LENGTH = 2000
+
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     views = models.IntegerField(default=0)
     likes = models.IntegerField(default=0)
@@ -79,9 +81,8 @@ class Review(models.Model):
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    website = models.URLField(blank=True)
     picture = models.ImageField(upload_to='profile_images', blank=True)
-    flag = models.ImageField(upload_to='flags', blank=True)
+    nationality = models.ForeignKey(Country, on_delete=models.CASCADE)
     review_count = models.IntegerField(default=0)
 
     liked_review = models.ManyToManyField(Review,on_delete=models.CASCADE)

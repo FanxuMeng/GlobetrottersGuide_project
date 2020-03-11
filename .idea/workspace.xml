@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38e4df1-fd9a-4cb6-843a-1e6e73f73f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobetrottersGuide/urls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GlobetrottersGuide_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GlobetrottersGuide_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GlobetrottersGuide/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GlobetrottersGuide/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/GlobetrottersGuide/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GlobetrottersGuide_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GlobetrottersGuide_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobetrottersGuide/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GlobetrottersGuide/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,6 +55,7 @@
       <updated>1583767821425</updated>
       <workItem from="1583767822684" duration="8772000" />
       <workItem from="1583848939570" duration="1546000" />
+      <workItem from="1583936620646" duration="4829000" />
     </task>
     <servers />
   </component>
@@ -70,5 +75,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="158" y="161" key="SettingsEditor/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1583789152750" />
+    <state x="762" y="0" width="781" height="840" key="dock-window-1" timestamp="1583936648251">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="762" y="0" width="781" height="840" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1583936648251" />
+    <state x="367" y="67" width="1038" height="785" key="dock-window-2" timestamp="1583938650814">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="367" y="67" width="1038" height="785" key="dock-window-2/0.0.1536.834@0.0.1536.834" timestamp="1583938650814" />
+    <state x="953" y="0" width="974" height="1057" key="dock-window-3" timestamp="1583959756242">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-6" y="0" width="716" height="840" key="dock-window-3/0.0.1536.834@0.0.1536.834" timestamp="1583940785891" />
+    <state x="953" y="0" width="974" height="1057" key="dock-window-3/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1583959756242" />
   </component>
 </project>
