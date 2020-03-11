@@ -15,7 +15,28 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import include
+from GlobetrottersGuide import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('home/', include('GlobetrottersGuide.urls')),
+
+    path('myprofile/',views.showUserProfile, name='MyProfile'),
+    path('myprofile/likes/',views.showLikes, name='MeLiked'),
+    path('user/<username>/',
+        views.showUserProfile, name='UserProfile'),
+    path('user/<username>/likes/',
+        views.showLikes, name='UserLiked'),
+
+    path('<slug:continent_name_slug>/',
+        views.home, name='show_continent'),
+    path('<slug:continent_name_slug>/<slug:country_name_slug>/',
+        views.home,name='Country'),
+    path('<slug:continent_name_slug>/<slug:country_name_slug>/writereview/',
+        views.writereview,name='write_review'),
+    path('<slug:continent_name_slug>/<slug:country_name_slug>/<slug:city_name_slug>/',
+        views.showreview,name='City'),
+    path('<slug:continent_name_slug>/<slug:country_name_slug>/<slug:city_name_slug>/writereview/',
+        views.writereview,name='City'),
 ]
